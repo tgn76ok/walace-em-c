@@ -4,19 +4,22 @@
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
+    /*inicializando as vari√°veis*/
     int num[4];
     int resl,resl2;
+    
+    /*um la√ßo de repeti√ßao que pede para digitar 4 numeros consecutivamente*/
 
     for(int i = 0; i <4; i++){
         printf("Digite um numero: ");
         scanf("%d",&num[i]);
     }
 
-
+      /*realizando os calculos*/
     resl = num[0] * num[2];
     resl2 = num[1] + num[3];
-
-    printf("PultiplicaÁao primeiro n˙mero com o terceiro n˙mero lido, o relsutado È %d\n",resl);
-    printf("Soma do segundo n˙mero com o quarto n˙mero, o relsutado È %d",resl2);
+    /*desmostra√ß√£o na tela dos resultados*/
+    printf("Pultiplica√ßao primeiro n√∫mero com o terceiro n√∫mero lido, o relsutado √© %d\n",resl);
+    printf("Soma do segundo n√∫mero com o quarto n√∫mero, o relsutado √© %d",resl2);
 
 }
