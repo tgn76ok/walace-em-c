@@ -23,7 +23,7 @@ int main(void){
      int resl,resl2;
      int num[TamanhoArry];
      int maxi,menos,numeros;
-    /*precessando varrendo o vetor e verificando qual desse valores é o maior e o menor*/
+    /* varrendo o vetor e verificando qual desse valores é o maior e o menor*/
      for (int i = 0; i<TamanhoArry ; ++i){
 
         printf("digite o número: ");
